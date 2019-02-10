@@ -1,0 +1,18 @@
+// 20190210213753
+// https://raw.githubusercontent.com/zeit/next.js/master/examples/with-styled-components/.babelrc
+
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
